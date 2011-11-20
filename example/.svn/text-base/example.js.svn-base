@@ -1,0 +1,10 @@
+var
+xls = require('../lib/node-xls'),
+xls2js = new xls.Parser();
+
+xls2js.once('end', function(a) {
+  console.log(a);
+});
+console.log('Now i will call parseFile()');
+xls2js.parseFile('example.xls');
+console.log('parseFile() was called');
