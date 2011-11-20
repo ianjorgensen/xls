@@ -1,6 +1,6 @@
 {
  "name":"xls",
- "version":"0.5.0",
+ "version":"0.5.1",
  "description":"convert xls to json",
  "author":[
    "Ian Jørgensen <jorgensen.ian@gmail.com>"

@@ -16,7 +16,7 @@ exports.parse = function(file, callback) {
         xml += data;
     });
     xlhtml.on('exit', function() {
-      callback(null, xmlParser.toJson(xml));
+      callback(null, xmlParser.toJson(xml, {object: true}));
     });
   });
 };
